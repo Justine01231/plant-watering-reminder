@@ -1,0 +1,99 @@
+1. Monstera (Indoor Plant)
+Type : Tropical / Ornamental
+Description : Known for its large, split leaves, the Monstera is a popular houseplant that thrives in indirect sunlight.
+Watering Frequency : Every 7–10 days.
+
+2. Snake Plant (Indoor Plant)
+Type : Succulent / Low-Maintenance
+Description : Also called "Mother-in-Law's Tongue," this plant is drought-tolerant and great for beginners.
+Watering Frequency : Every 2–3 weeks.
+
+3. Peace Lily (Indoor Plant)
+Type : Flowering / Air-Purifying
+Description : A beautiful plant with white flowers, it also helps purify indoor air.
+Watering Frequency : Every 5–7 days.
+
+4. Aloe Vera (Succulent)
+Type : Medicinal / Succulent
+Description : Known for its healing gel, Aloe Vera is a low-maintenance plant that stores water in its leaves.
+Watering Frequency : Every 2–3 weeks.
+
+5. Spider Plant (Indoor Plant)
+Type : Hanging / Air-Purifying
+Description : This plant is easy to care for and produces small "spiderettes" that can be propagated.
+Watering Frequency : Every 7–10 days.
+
+6. Rosemary (Herb)
+Type : Herb / Culinary
+Description : A fragrant herb used in cooking, Rosemary prefers bright light and well-drained soil.
+Watering Frequency : Every 7–10 days.
+
+7. Basil (Herb)
+Type : Herb / Culinary
+Description : A popular herb for cooking, Basil needs consistent moisture and plenty of sunlight.
+Watering Frequency : Every 2–3 days.
+
+8. Tomato Plant (Vegetable)
+Type : Vegetable / Garden
+Description : A productive plant for home gardens, tomatoes need regular watering and full sun.
+Watering Frequency : Every 2–3 days.
+
+9. Lavender (Outdoor Plant)
+Type : Aromatic / Perennial
+Description : Known for its fragrant purple flowers, Lavender prefers dry conditions and full sun.
+Watering Frequency : Every 7–10 days.
+
+10. Pothos (Indoor Plant)
+Type : Trailing / Low-Maintenance
+Description : A hardy plant with heart-shaped leaves, Pothos is great for beginners and can grow in low light.
+Watering Frequency : Every 7–10 days.
+
+11. Ferns (Indoor/Outdoor Plant)
+Type : Tropical / Shade-Loving
+Description : Ferns thrive in humid environments and are often used as decorative plants.
+Watering Frequency : Every 3–5 days.
+
+12. Cactus (Succulent)
+Type : Succulent / Desert
+Description : A drought-tolerant plant that requires minimal care and thrives in bright, direct sunlight.
+Watering Frequency : Every 3–4 weeks.
+
+13. Mint (Herb)
+Type : Herb / Culinary
+Description : A fast-growing herb that can be grown indoors or outdoors, Mint prefers moist soil.
+Watering Frequency : Every 2–3 days.
+
+14. Fiddle Leaf Fig (Indoor Plant)
+Type : Tropical / Ornamental
+Description : A trendy indoor plant with large, glossy leaves, it requires bright, indirect light.
+Watering Frequency : Every 7–10 days.
+
+15. Sunflower (Outdoor Plant)
+Type : Flower / Annual
+Description : Known for its tall stalks and bright yellow flowers, Sunflowers love full sun.
+Watering Frequency : Every 3–5 days.
+
+16. Rubber Plant (Indoor Plant)
+Type : Tropical / Ornamental
+Description : A sturdy plant with thick, glossy leaves, the Rubber Plant is great for indoor spaces.
+Watering Frequency : Every 7–10 days.
+
+17. Jade Plant (Succulent)
+Type : Succulent / Ornamental
+Description : A classic succulent with thick, fleshy leaves, Jade Plants are easy to care for.
+Watering Frequency : Every 2–3 weeks.
+
+18. Zinnia (Flower)
+Type : Flower / Annual
+Description : Bright, colorful flowers that attract pollinators like bees and butterflies.
+Watering Frequency : Every 3–5 days.
+
+19. Philodendron (Indoor Plant)
+Type : Tropical / Trailing
+Description : A versatile plant that can climb or trail, Philodendrons are great for beginners.
+Watering Frequency : Every 7–10 days.
+
+20. Lemon Tree (Fruit Tree)
+Type : Fruit-Bearing / Outdoor
+Description : A citrus tree that produces fragrant lemons, it requires full sun and regular watering.
+Watering Frequency : Every 5–7 days.

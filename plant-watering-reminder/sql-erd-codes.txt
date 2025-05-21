@@ -1,0 +1,44 @@
+-- Create the database
+CREATE DATABASE IF NOT EXISTS plant_watering_reminder;
+USE plant_watering_reminder;
+
+-- Users Table (Updated to include first_name and last_name)
+CREATE TABLE IF NOT EXISTS Users (
+    user_id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(50) NOT NULL, -- New column for first name
+    last_name VARCHAR(50) NOT NULL,  -- New column for last name
+    email VARCHAR(100) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Plants Table
+CREATE TABLE IF NOT EXISTS Plants (
+    plant_id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    plant_name VARCHAR(100) NOT NULL,
+    type VARCHAR(100),
+    watering_frequency INT NOT NULL, -- Number of days between waterings
+    last_watered DATE NOT NULL, -- Last time the plant was watered
+    FOREIGN KEY (user_id) REFERENCES Users(user_id) ON DELETE CASCADE
+);
+
+-- WateringSchedule Table
+CREATE TABLE IF NOT EXISTS WateringSchedule (
+    schedule_id INT AUTO_INCREMENT PRIMARY KEY,
+    plant_id INT NOT NULL,
+    next_watering_date DATE NOT NULL,
+    next_watering_time TIME NOT NULL, -- Time added for scheduling
+    status ENUM('pending', 'completed') DEFAULT 'pending',
+    FOREIGN KEY (plant_id) REFERENCES Plants(plant_id) ON DELETE CASCADE
+);
+
+-- Reports Table
+CREATE TABLE Logs (
+    log_id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    action VARCHAR(255) NOT NULL,
+    details TEXT,
+    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (user_id) REFERENCES Users(user_id)
+);

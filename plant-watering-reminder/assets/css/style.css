@@ -1,0 +1,209 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #d4d4d4;
+}
+
+main {
+    margin-top: 20px;
+}
+
+/* Alerts */
+.error {
+    background-color: #ffebee;
+    color: #c62828;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid #ffcdd2;
+}
+
+.success {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid #c8e6c9;
+}
+
+
+/* Schedule Page */
+.schedule-filters {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.schedule-filters button {
+    background-color: #e0e0e0;
+    color: #333;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s ease;
+}
+
+.schedule-filters button.active {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+}
+
+.schedule-filters button:hover:not(.active) {
+    background-color: #d4d4d4;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #f5f5f5;
+    font-weight: bold;
+    color: #555;
+}
+
+td {
+    color: #333;
+}
+
+.status-badge {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: white;
+}
+
+.status-badge.today {
+    background-color: #ffeb3b;
+    color: #ff6f00;
+}
+
+.status-badge.overdue {
+    background-color: #c62828;
+    color: white;
+}
+
+.status-badge.upcoming {
+    background-color: #2e7d32;
+    color: white;
+}
+
+tr.overdue {
+    background-color: #ffebee;
+}
+
+tr.today {
+    background-color: #fff8e1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .schedule-filters {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    th, td {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+/* Error Message */
+.error-message {
+    color: #d32f2f; /* Red text */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Success Message */
+.success-message {
+    color: #2e7d32; /* Green text */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.edit-btn {
+    background-color: #2e7d32; /* Green background */
+    color: white; /* White text */
+    padding: 5px 10px; /* Padding for size */
+    border-radius: 4px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    margin-left: 10px; /* Space between buttons */
+    transition: background 0.3s ease; /* Smooth hover effect */
+}
+
+.edit-btn:hover {
+    background-color: #1b5e20; /* Darker green on hover */
+}
+
+.cancel-btn {
+    background-color: #f44336; /* Red background */
+    color: white; /* White text */
+    padding: 5px 10px; /* Padding for size */
+    border-radius: 4px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    margin-left: 10px; /* Space between buttons */
+    transition: background 0.3s ease; /* Smooth hover effect */
+}
+
+.cancel-btn:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
